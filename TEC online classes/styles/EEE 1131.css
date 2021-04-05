@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #022c38;
+}
+
+
+.header{
+    font-size: 70px;
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+    text-decoration: none;
+}
+
+header{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.topbox{
+    background-image: url(../assests/engi.jpg);
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.sublist{
+    text-decoration: none;
+    color: midnightblue;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-family: Patua One;
+    font-size: 17px;
+}
+
+.sublist:hover{
+    color: aliceblue;
+    background-color: deeppink;
+}
+
+.sublist:active{
+    color: aliceblue;
+    background-color: midnightblue;
+}
+
+.midbox{
+    background-color: #022c38;
+}
+
+.active{
+    background-color: navajowhite;
+}
+
+.videos{
+    padding: 50px 50px 50px 50px;
+}
+
+.videoslink{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+}
+
+.videoslink:hover{
+    
+    color: red;
+}
+
+.videopads{
+    padding-right: 80px;
+}
