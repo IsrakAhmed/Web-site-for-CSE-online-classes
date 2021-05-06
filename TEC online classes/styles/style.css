@@ -19,7 +19,7 @@ header{
 }
 
 .topbox{
-    background-image: url(../assests/engi.jpg);
+    background-color: gainsboro;
     position: sticky;
     top: 0;
 }

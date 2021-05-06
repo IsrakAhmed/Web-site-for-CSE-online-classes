@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #022c38;
+}
+
+
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.topbox{
+    background-color: gainsboro;
+    position: sticky;
+    top: 0;
+}
+
+.dpt{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 65px;
+    color: white;
+     
+}
+
+.midbox{
+    background-color: #022c38;
+}
+
+.onlinelec{
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 45px;
+}
+
+.menu{
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+
+a{
+    text-decoration: none;
+    color: midnightblue;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+a:hover{
+    color: aliceblue;
+    background-color: deeppink;
+}
+
+a:active{
+    color: aliceblue;
+    background-color: midnightblue;
+}
+
+footer{
+    
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 13px;
+    background-color: darkslategrey;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+

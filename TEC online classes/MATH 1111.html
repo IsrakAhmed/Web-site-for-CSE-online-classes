@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSE 1121</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH 1111</title>
+    
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d722e0b320.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/MATH 1111.css">
+    
 </head>
 <body>
    
@@ -14,26 +18,62 @@
             <a href="index.html" class="header">TEC</a>
         
         </header>
+        
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+        
+        </div>
 
         <div class="menu">
+            
+            <div id="myLinks">
 
-            <a href="CSE 1121.html" class="sublist">CSE 1121</a>
+                <a href="CSE 1121.html" class="sublist">CSE 1121</a>
 
-            <a href="CSE 1111.html" class="sublist">CSE 1111</a>
+                <a href="CSE 1111.html" class="sublist">CSE 1111</a>
 
-            <a href="MATH 1111.html" class="active sublist">MATH 1111</a>
+                <a href="MATH 1111.html" class="active sublist">MATH 1111</a>
 
-            <a href="EEE 1131.html" class="sublist">EEE 1131</a>
+                <a href="EEE 1131.html" class="sublist">EEE 1131</a>
 
-            <a href="CHEM 1111.html" class="sublist">CHEM 1111</a>
+                <a href="CHEM 1111.html" class="sublist">CHEM 1111</a>
 
-            <a href="ENG 1111.html" class="sublist">ENG 1111</a>
+                <a href="ENG 1111.html" class="sublist">ENG 1111</a>
+            
+            </div>
+        </div>
+        
+        <div class="menuforpc">
+
+            <a href="CSE 1121.html" class="sublistforpc">CSE 1121</a>
+
+            <a href="CSE 1111.html" class="sublistforpc">CSE 1111</a>
+
+            <a href="MATH 1111.html" class="activepc sublistforpc">MATH 1111</a>
+
+            <a href="EEE 1131.html" class="sublistforpc">EEE 1131</a>
+
+            <a href="CHEM 1111.html" class="sublistforpc">CHEM 1111</a>
+
+            <a href="ENG 1111.html" class="sublistforpc">ENG 1111</a>
 
         </div>
-    
-    </div>
-    
-    <div class="midbox">
+                                                             
+            <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+      
+ <div class="midbox">
         
         <div class="videos">
         
@@ -77,8 +117,8 @@
         </div>
         
         
-    </div>
-    
+    </div>       
+            
     
 </body>
 </html>
