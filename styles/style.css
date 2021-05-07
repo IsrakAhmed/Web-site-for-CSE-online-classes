@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #022c38;
+}
+
+
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.topbox{
+    background-color: gainsboro;
+    position: sticky;
+    top: 0;
+}
+
+.dpt{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 65px;
+    color: coral;
+     
+}
+
+.midbox{
+    background-color: #022c38;
+    padding-bottom: 50px;
+}
+
+.onlinelec{
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 45px;
+}
+
+.menu{
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: midnightblue;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.link:hover{
+    color: aliceblue;
+    background-color: deeppink;
+}
+
+.link:active{
+    color: aliceblue;
+    background-color: midnightblue;
+}
+
+footer{
+    
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-color: darkslategrey;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+
+.myname{
+    display: inline;
+    font-size: 11px;
+}
+
+.fmo{
+    display: inline;
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.smedia{
+    padding: 5px;
+    background-color: darkslategrey;
+    text-decoration: none;
+    color: black;
+}
+
+.smedia:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
