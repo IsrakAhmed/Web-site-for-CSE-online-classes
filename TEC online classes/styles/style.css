@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -29,12 +30,13 @@ header{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     padding-bottom: 65px;
-    color: white;
+    color: coral;
      
 }
 
 .midbox{
     background-color: #022c38;
+    padding-bottom: 50px;
 }
 
 .onlinelec{
@@ -51,7 +53,7 @@ header{
 }
 
 
-a{
+.link{
     text-decoration: none;
     color: midnightblue;
     background-color: aliceblue;
@@ -60,12 +62,12 @@ a{
     font-size: 30px;
 }
 
-a:hover{
+.link:hover{
     color: aliceblue;
     background-color: deeppink;
 }
 
-a:active{
+.link:active{
     color: aliceblue;
     background-color: midnightblue;
 }
@@ -73,11 +75,33 @@ a:active{
 footer{
     
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 13px;
     background-color: darkslategrey;
     display: block;
     color: aliceblue;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+}
+
+.myname{
+    display: inline;
+    font-size: 11px;
+}
+
+.fmo{
+    display: inline;
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.smedia{
+    padding: 5px;
+    background-color: darkslategrey;
+    text-decoration: none;
+    color: black;
+}
+
+.smedia:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
