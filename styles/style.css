@@ -19,11 +19,34 @@ header{
     padding-top: 20px;
 }
 
+
 .topbox{
     background-color: gainsboro;
     position: sticky;
     top: 0;
 }
+
+.affiliated{
+    text-align: center;
+}
+
+.ru-link{
+    text-decoration: none;
+    color: midnightblue;
+    background-color: aliceblue;
+    padding: 5px 5px;
+}
+
+.ru-link:hover{
+    color: aliceblue;
+    background-color: deeppink;
+}
+
+.ru-link:active{
+    color: aliceblue;
+    background-color: midnightblue;
+}
+
 
 .dpt{
     font-size: 50px;
